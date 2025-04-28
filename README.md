@@ -1,11 +1,13 @@
-## 📑 Table of Contents
-- About
-- Technologies Used
-- Getting Started
-- Screenshots
-- Live Demo
-- Contact
+# 🚀 Portfolio Website
 
+## 📑 Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+- [Live Demo](#live-demo)
+- [Contact](#contact)
 
 ## ✨ About
 This is a **personal portfolio website** designed to highlight my skills, projects, and background.  
