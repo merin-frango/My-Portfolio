@@ -1,13 +1,12 @@
 # 🚀 Portfolio Website
 
 ## 📑 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Screenshots](#screenshots)
-- [Live Demo](#live-demo)
-- [Contact](#contact)
+- About
+- Features
+- Technologies Used
+- Getting Started
+- Live Demo
+- Contact
 
 ## ✨ About
 This is a **personal portfolio website** designed to highlight my skills, projects, and background.  
@@ -28,18 +27,18 @@ Built using **HTML**, **CSS**, and **JavaScript**, it provides a smooth, respons
 ## 🏁 Getting Started
 
 Clone this project to your local machine:
-
+https://github.com/merin-frango/My-Portfolio.git
 
 Open `index.html` in your favorite browser and enjoy! 🎉
 
 ## 🌐 Live Demo
-Check out the live version here:  
+Check out the live version here: https://merin-frango.github.io/My-Portfolio/
 
 ## 📫 Contact
 Feel free to reach out!
 
-- **Email**: 
-- **LinkedIn**: 
-- **GitHub**:
+- **Email**: merinfrango2094@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/merin-frango/
+- **GitHub**: https://github.com/merin-frango
 
 > Made with 💙 by Merin Frango
