@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="icon" href="#">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="desktop-nav">
+        <div class="logo">Merin Frango</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Navbar-Phone -->
+    <nav id="hamburger-nav">
+        <div class="logo">Merin Frango</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section -->
+    <!-- Profile -->
+    <section id="profile">
+        <div class="section-pic">
+            <img src="./images/image-1.png" alt="Avatar">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Merin Frango</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./images/resume-example.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='.#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="./images/linkedin.png" alt="LinkeIn" class="icon"
+                    onclick="window.open('https://www.linkedin.com/in/merin-frango/', '_blank')">
+                <img src="./images/github.png" alt="GitHub" class="icon"
+                    onclick="window.open('https://github.com/merin-frango', '_blank')">
+            </div>
+        </div>
+        <img src="./images/arrow.png" alt="arrow" class="icon arrow__profile" onclick="location.href='.#about'">
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./images/image-2.jpg" alt="Profile Image" class="about-pic">
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./images/experience.png" alt="Experience" class="icon">
+                        <h2>Experience</h2>
+                        <p style="margin-top: 0.5rem;">
+                        <h4>1+ years</h4>Technical Support Engineer</p>
+                        <p style="margin-top: 0.5rem;">
+                        <h4>3+ years</h4>Civil Supervisor</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src="./images/education.png" alt="Education" class="icon">
+                        <h2>Education</h2>
+                        <p style="margin-top: 0.5rem;">
+                        <h4>B.E. Civil Engineering</h4>Ponjesly College of Engineering</p>
+                        <p style="margin-top: 0.5rem;">
+                        <h4>PGDM (Management)</h4>LIBA</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Fueled by curiosity and a vision for impact, I lead with creativity, courage, and collaboration.
+                        I
+                        believe leadership is about inspiring action, embracing challenges, and turning ideas into
+                        lasting
+                        results. Every project is an opportunity to innovate, empower teams, and build a future where
+                        ambition meets meaningful change.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./images/arrow.png" alt="arror" class="icon arrow" onclick="location.href='.#experience'">
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technical Support Engineer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Troubleshooting player technical issues</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Communicating solutions through live chat</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Ensuring high customer satisfaction</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Providing updated game information</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Escalating unresolved technical problems</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Collaborating with internal support teams</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Civil Engineer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Supervising on-site construction activities</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Monitoring and maintaining work quality</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Enforcing health and safety protocols</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3> Coordinating teams and subcontractors</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Preparing and submitting daily reports</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Planning and tracking project schedules</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./images/arrow.png" alt="arror" class="icon arrow__exp" onclick="location.href='.#projects'">
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="detail-container color-container">
+                    <div class="project-container">
+                        <img src="./images/project-1.jpg" alt="Udemy" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/merin-frango/udemy-clone.git', '_blank')">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://merin-frango.github.io/udemy-clone/', '_blank')">Live
+                            Demo</button>
+                    </div>
+                </div>
+
+                <div class="detail-container color-container">
+                    <div class="project-container">
+                        <img src="./images/project-2.jpg" alt="TripAdvisor" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/merin-frango/TripAdvisor', '_blank')">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://merin-frango.github.io/TripAdvisor/', '_blank')">Live
+                            Demo</button>
+                    </div>
+                </div>
+
+                <div class="detail-container color-container">
+                    <div class="project-container">
+                        <img src="./images/project-3.jpg" alt="Greenden" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/merin-frango/greenden.git', '_blank')">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://merin-frango.github.io/greenden/', '_blank')">Live
+                            Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/arrow.png" alt="arror" class="icon arrow__projects" onclick="location.href='.#contact'">
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./images/email.png" alt="Email" class="icon contact">
+                <a href="mailto:merinfrango2094@gmail.com" target="_blank"><p>merinfrango2094@gmail.com</p></a>
+            </div>
+            <div class="contact-info-container">
+                <img src="./images/whatsapp.png" alt="LikedIn" class="icon contact">
+                <a href="" target="_blank"><p>+917395850859</p></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#desktop">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <p>&copy; 2025 Merin Frango💙 All Rights Reserved.</p>
+     </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
